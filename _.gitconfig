@@ -1,0 +1,17 @@
+[user]
+	name = Lucas Ellenberger
+	email = lmellenb@ucsc.edu
+[github]
+	user = Lucas-Ellenberger
+[core]
+	autocrlf = false
+	filemode = false
+
+[push]
+	default = simple
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

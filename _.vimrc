@@ -108,9 +108,6 @@ set scrolloff=8
 " Encoding
 set encoding=utf-8
 
-" Link other options
-so ~/.vim/autoclose.vim
-
 """
 """ Mappings
 """

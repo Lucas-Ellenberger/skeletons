@@ -1,4 +1,4 @@
-chine specific configurations are at the bottom.
+# Machine specific configurations are at the bottom.
 # The very last thing is always alias file loading because aliases may use environmental variables.
 
 # If not running interactively, don't do anything
